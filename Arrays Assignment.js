@@ -21,3 +21,25 @@ function mixedTime() {
 // fruitTime()
 mixedTime()
 // console.log("done")
+
+const arr = [1,7,3,4]
+arr.push(5)
+arr.unshift(0)
+console.log(arr)
+arr[2] = 2
+console.log(arr)
+
+try {
+    arr = "turkey"
+} catch (error) {
+    console.log(error)
+}
+
+console.log(arr)
+
+try {
+    arr = [5,4,3,2,1,0]
+} catch (error) {
+    console.log(error)
+}
+console.log(arr)
